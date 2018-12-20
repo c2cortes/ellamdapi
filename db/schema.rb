@@ -36,10 +36,11 @@ ActiveRecord::Schema.define(version: 20181220003013) do
     t.string   "user_name"
     t.string   "user_address"
     t.string   "user_date"
+    t.integer  "formulation_id"
     t.string   "ids"
     t.string   "percentages"
-    t.datetime "created_at",   null: false
-    t.datetime "updated_at",   null: false
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
   end
 
 end
