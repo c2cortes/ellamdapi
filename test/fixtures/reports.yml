@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_name: MyString
+  user_address: MyString
+  user_date: MyString
+  ids: MyString
+  percentages: MyString
+
+two:
+  user_name: MyString
+  user_address: MyString
+  user_date: MyString
+  ids: MyString
+  percentages: MyString
