@@ -4,6 +4,7 @@ class CreateReports < ActiveRecord::Migration[5.0]
       t.string :user_name
       t.string :user_address
       t.string :user_date
+      t.integer :formulation_id
       t.string :ids
       t.string :percentages
 
